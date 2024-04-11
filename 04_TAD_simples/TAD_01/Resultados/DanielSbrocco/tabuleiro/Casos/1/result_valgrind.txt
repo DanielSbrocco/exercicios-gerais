@@ -1,0 +1,12 @@
+==163811== Memcheck, a memory error detector
+==163811== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==163811== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==163811== Command: Resultados/DanielSbrocco/tabuleiro/prog Resultados/DanielSbrocco/tabuleiro/Casos/1
+==163811== Parent PID: 163810
+==163811== 
+==163811== Conditional jump or move depends on uninitialised value(s)
+==163811==    at 0x109EBD: EstaLivrePosicaoTabuleiro (in /home/dosbrocco/Documents/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DanielSbrocco/tabuleiro/prog)
+==163811==    by 0x1093CD: JogaJogador (in /home/dosbrocco/Documents/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DanielSbrocco/tabuleiro/prog)
+==163811==    by 0x109A2B: ComecaJogo (in /home/dosbrocco/Documents/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DanielSbrocco/tabuleiro/prog)
+==163811==    by 0x109C25: main (in /home/dosbrocco/Documents/exercicios-gerais/04_TAD_simples/TAD_01/Resultados/DanielSbrocco/tabuleiro/prog)
+==163811== 
