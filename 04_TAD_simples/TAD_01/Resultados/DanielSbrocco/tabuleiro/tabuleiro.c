@@ -3,9 +3,10 @@
 
 tTabuleiro CriaTabuleiro(){
     tTabuleiro tabuleiro;
-    tabuleiro.pecaVazio = "-";
-    tabuleiro.peca1 = "X";
-    tabuleiro.peca2 = "0";
+
+    tabuleiro.pecaVazio = '-';
+    tabuleiro.peca1 = 'X';
+    tabuleiro.peca2 = '0';
     int i, j;
     for(i = 0; i < TAM_TABULEIRO; i++){
         for(j = 0; j < TAM_TABULEIRO; j++){
@@ -19,7 +20,7 @@ tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y){
     int i, j;
     for(i = 0; i < TAM_TABULEIRO; i++){
         for(j = 0; j < TAM_TABULEIRO; j++){
-            if(i == x && j == y){
+            if(i == y && j == x){
                 if(peca == PECA_1){
                     tabuleiro.posicoes[i][j] = tabuleiro.peca1;
                 }
@@ -29,6 +30,7 @@ tTabuleiro MarcaPosicaoTabuleiro(tTabuleiro tabuleiro, int peca, int x, int y){
             }
         }
     }
+    return tabuleiro;
 }
 
 int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro){
@@ -44,21 +46,28 @@ int TemPosicaoLivreTabuleiro(tTabuleiro tabuleiro){
 }
 
 int EstaMarcadaPosicaoPecaTabuleiro(tTabuleiro tabuleiro, int x, int y, int peca){
-    if(tabuleiro.posicoes[x][y] == peca){
-        return 1;
+    if(peca == PECA_1){
+        if(tabuleiro.posicoes[y][x] == tabuleiro.peca1){
+            return 1;
+        }
+    }
+    if(peca == PECA_2){
+        if(tabuleiro.posicoes[y][x] ==  tabuleiro.peca2){
+            return 1;
+        }
     }
     return 0;
 }
 
 int EstaLivrePosicaoTabuleiro(tTabuleiro tabuleiro, int x, int y){
-    if(tabuleiro.posicoes[x][y] == tabuleiro.pecaVazio){
+    if(tabuleiro.posicoes[y][x] == tabuleiro.pecaVazio){
         return 1;
     }
     return 0;
 }
 
 int EhPosicaoValidaTabuleiro(int x, int y){
-    if((x > TAM_TABULEIRO || y > TAM_TABULEIRO) || (x < 0 || y < 0)){
+    if((x >= TAM_TABULEIRO || y >= TAM_TABULEIRO) || (x < 0 || y < 0)){
         return 0;
     } else {
         return 1;
@@ -68,7 +77,10 @@ int EhPosicaoValidaTabuleiro(int x, int y){
 void ImprimeTabuleiro(tTabuleiro tabuleiro){
     int i, j;
     for(i = 0; i < TAM_TABULEIRO; i++){
-        printf("%s", tabuleiro.posicoes[i]);
+        printf("\t");
+        for(j = 0; j < TAM_TABULEIRO; j++){
+            printf("%c", tabuleiro.posicoes[i][j]);
+        }
         printf("\n");
     }
 }
