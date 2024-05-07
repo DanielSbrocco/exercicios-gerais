@@ -1,0 +1,12 @@
+main.c: In function ‘main’:
+main.c:13:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+   13 |         exit(0);
+      |         ^~~~
+main.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+    2 | #include "data.h"
+  +++ |+#include <stdlib.h>
+    3 | 
+main.c:13:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+   13 |         exit(0);
+      |         ^~~~
+main.c:13:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
