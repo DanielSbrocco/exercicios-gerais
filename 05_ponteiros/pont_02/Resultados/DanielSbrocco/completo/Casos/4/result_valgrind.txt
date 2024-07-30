@@ -1,0 +1,61 @@
+==335335== Memcheck, a memory error detector
+==335335== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==335335== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==335335== Command: Resultados/DanielSbrocco/completo/prog Resultados/DanielSbrocco/completo/Casos/4
+==335335== Parent PID: 335334
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x1092FF: ObtemMaiorEMenorPrimo (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335==    by 0x1091EF: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x1092A3: EhPrimo (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335==    by 0x1092E4: ObtemMaiorEMenorPrimo (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335==    by 0x1091EF: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x10932D: ObtemMaiorEMenorPrimo (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335==    by 0x1091EF: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x1092A3: EhPrimo (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335==    by 0x109312: ObtemMaiorEMenorPrimo (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335==    by 0x1091EF: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x48F2AD6: __vfprintf_internal (vfprintf-internal.c:1516)
+==335335==    by 0x48DC79E: printf (printf.c:33)
+==335335==    by 0x10920B: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Use of uninitialised value of size 8
+==335335==    at 0x48D62EB: _itoa_word (_itoa.c:177)
+==335335==    by 0x48F1ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==335335==    by 0x48DC79E: printf (printf.c:33)
+==335335==    by 0x10920B: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x48D62FC: _itoa_word (_itoa.c:177)
+==335335==    by 0x48F1ABD: __vfprintf_internal (vfprintf-internal.c:1516)
+==335335==    by 0x48DC79E: printf (printf.c:33)
+==335335==    by 0x10920B: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x48F25C3: __vfprintf_internal (vfprintf-internal.c:1516)
+==335335==    by 0x48DC79E: printf (printf.c:33)
+==335335==    by 0x10920B: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== Conditional jump or move depends on uninitialised value(s)
+==335335==    at 0x48F1C05: __vfprintf_internal (vfprintf-internal.c:1516)
+==335335==    by 0x48DC79E: printf (printf.c:33)
+==335335==    by 0x10920B: main (in /home/dosbrocco/exercicios-gerais/05_ponteiros/pont_02/Resultados/DanielSbrocco/completo/prog)
+==335335== 
+==335335== 
+==335335== HEAP SUMMARY:
+==335335==     in use at exit: 0 bytes in 0 blocks
+==335335==   total heap usage: 2 allocs, 2 frees, 8,192 bytes allocated
+==335335== 
+==335335== All heap blocks were freed -- no leaks are possible
+==335335== 
+==335335== Use --track-origins=yes to see where uninitialised values come from
+==335335== For lists of detected and suppressed errors, rerun with: -s
+==335335== ERROR SUMMARY: 56 errors from 9 contexts (suppressed: 0 from 0)
