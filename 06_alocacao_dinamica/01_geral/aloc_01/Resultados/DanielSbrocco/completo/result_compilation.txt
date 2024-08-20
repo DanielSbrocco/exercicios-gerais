@@ -1,0 +1,25 @@
+utils.c: In function ‘CriaVetor’:
+utils.c:5:24: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+    5 |     int* vetor = (int*)malloc(tamanho*sizeof(int));
+      |                        ^~~~~~
+utils.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    2 | #include "utils.h"
+  +++ |+#include <stdlib.h>
+    3 | 
+utils.c:5:24: warning: incompatible implicit declaration of built-in function ‘malloc’ [-Wbuiltin-declaration-mismatch]
+    5 |     int* vetor = (int*)malloc(tamanho*sizeof(int));
+      |                        ^~~~~~
+utils.c:5:24: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+utils.c:8:9: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+    8 |         exit(0);
+      |         ^~~~
+utils.c:8:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+utils.c:8:9: warning: incompatible implicit declaration of built-in function ‘exit’ [-Wbuiltin-declaration-mismatch]
+utils.c:8:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘exit’
+utils.c: In function ‘LiberaVetor’:
+utils.c:29:5: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   29 |     free(vetor);
+      |     ^~~~
+utils.c:29:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+utils.c:29:5: warning: incompatible implicit declaration of built-in function ‘free’ [-Wbuiltin-declaration-mismatch]
+utils.c:29:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
