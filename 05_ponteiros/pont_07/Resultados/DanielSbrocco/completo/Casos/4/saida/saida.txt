@@ -8,10 +8,13 @@
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
-Nao data modificada
-Opcao invalida!
-Opcao invalida!
-Opcao invalida!
+0 - Viagem - 12/8/2003
+1 - Corrida - 23/11/2017
+2 - Inauguracao - 9/9/2009
+Data modificada com sucesso!
+0 - Viagem - 24/12/2023
+1 - Corrida - 23/11/2017
+2 - Inauguracao - 9/9/2009
 Indices invalidos!
-Indices invalidos!
+Eventos trocados com sucesso!
 Saindo...

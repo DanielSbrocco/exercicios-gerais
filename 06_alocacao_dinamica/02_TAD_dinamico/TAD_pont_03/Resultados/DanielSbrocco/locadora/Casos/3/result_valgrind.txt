@@ -1,0 +1,27 @@
+==132465== Memcheck, a memory error detector
+==132465== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==132465== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==132465== Command: Resultados/DanielSbrocco/locadora/prog Resultados/DanielSbrocco/locadora/Casos/3
+==132465== Parent PID: 132464
+==132465== 
+==132465== 
+==132465== HEAP SUMMARY:
+==132465==     in use at exit: 36 bytes in 1 blocks
+==132465==   total heap usage: 7 allocs, 6 frees, 8,324 bytes allocated
+==132465== 
+==132465== 36 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==132465==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==132465==    by 0x1092BE: CriarFilme (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==132465==    by 0x109648: CadastrarFilmeLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==132465==    by 0x1096F2: LerCadastroLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==132465==    by 0x109C32: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==132465== 
+==132465== LEAK SUMMARY:
+==132465==    definitely lost: 36 bytes in 1 blocks
+==132465==    indirectly lost: 0 bytes in 0 blocks
+==132465==      possibly lost: 0 bytes in 0 blocks
+==132465==    still reachable: 0 bytes in 0 blocks
+==132465==         suppressed: 0 bytes in 0 blocks
+==132465== 
+==132465== For lists of detected and suppressed errors, rerun with: -s
+==132465== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

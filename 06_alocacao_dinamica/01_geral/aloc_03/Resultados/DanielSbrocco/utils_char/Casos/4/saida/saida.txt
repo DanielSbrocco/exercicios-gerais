@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+______________________________________________________________________________________________________________________________________________________
+Todavia, o inicio da atividade geral de formacao de atitudes assume importantes posicoes no estabelecimento dos procedimentos normalmente adotados.___
+=======
 
 ______________________________________________________________________________________________________________________________________________________
 Todavia, o inicio da atividade geral de formacao de atitudes assume importantes posicoes no estabelecimento dos procedimentos normalmente adotados.
 __
+>>>>>>> refs/remotes/origin/main

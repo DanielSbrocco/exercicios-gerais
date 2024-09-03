@@ -1,0 +1,260 @@
+==466146== Memcheck, a memory error detector
+==466146== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==466146== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==466146== Command: Resultados/DanielSbrocco/eleicao/prog Resultados/DanielSbrocco/eleicao/Casos/7
+==466146== Parent PID: 466145
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x1091F9: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f040 is 0 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x109205: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f040 is 0 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid free() / delete / delete[] / realloc()
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10920F: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a81a80 is 0 bytes inside a block of size 11 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10920F: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1092AA: LeCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109567: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x109214: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f048 is 8 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x109221: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f048 is 8 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid free() / delete / delete[] / realloc()
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10922C: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a81ad0 is 0 bytes inside a block of size 36 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10922C: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1092EB: LeCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109567: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid free() / delete / delete[] / realloc()
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1096CC: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f040 is 0 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x1091F9: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f040 is 0 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x109205: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f040 is 0 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid free() / delete / delete[] / realloc()
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10920F: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a81a80 is 0 bytes inside a block of size 11 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10920F: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1092AA: LeCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109567: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x109214: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f048 is 8 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid read of size 8
+==466146==    at 0x109221: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f048 is 8 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid free() / delete / delete[] / realloc()
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10922C: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a81ad0 is 0 bytes inside a block of size 36 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x10922C: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1092EB: LeCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109567: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== Invalid free() / delete / delete[] / realloc()
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109704: ApagaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x1099A6: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Address 0x4a7f040 is 0 bytes inside a block of size 32 free'd
+==466146==    at 0x484988F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x109238: ApagaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109675: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==  Block was alloc'd at
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109492: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== 
+==466146== HEAP SUMMARY:
+==466146==     in use at exit: 397 bytes in 16 blocks
+==466146==   total heap usage: 35 allocs, 37 frees, 9,740 bytes allocated
+==466146== 
+==466146== 72 bytes in 5 blocks are definitely lost in loss record 1 of 4
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1092AA: LeCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109567: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== 96 bytes in 3 blocks are definitely lost in loss record 2 of 4
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109626: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== 96 bytes in 3 blocks are definitely lost in loss record 3 of 4
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1091AA: CriaCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109599: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== 133 bytes in 5 blocks are definitely lost in loss record 4 of 4
+==466146==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==466146==    by 0x1092EB: LeCandidato (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x109567: InicializaEleicao (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146==    by 0x10997E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_02/Resultados/DanielSbrocco/eleicao/prog)
+==466146== 
+==466146== LEAK SUMMARY:
+==466146==    definitely lost: 397 bytes in 16 blocks
+==466146==    indirectly lost: 0 bytes in 0 blocks
+==466146==      possibly lost: 0 bytes in 0 blocks
+==466146==    still reachable: 0 bytes in 0 blocks
+==466146==         suppressed: 0 bytes in 0 blocks
+==466146== 
+==466146== For lists of detected and suppressed errors, rerun with: -s
+==466146== ERROR SUMMARY: 46 errors from 18 contexts (suppressed: 0 from 0)

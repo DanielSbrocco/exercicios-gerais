@@ -5,7 +5,6 @@
 3 - Trocar data de um evento
 4 - Trocar a posicao entre dois eventos
 5 - Sair
-Nenhum evento cadastrado.
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
@@ -17,7 +16,6 @@ Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Evento cadastrado com sucesso!
 Limite de eventos atingido!
-Eventos cadastrados:
 0 - atv1 - 12/10/2021
 1 - atv2 - 15/10/2021
 2 - atv3 - 18/10/2021

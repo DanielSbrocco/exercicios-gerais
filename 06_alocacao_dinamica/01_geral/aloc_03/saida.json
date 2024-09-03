@@ -2,7 +2,11 @@
 	"alunos": [
 		{
 			"Nome":"DanielSbrocco",
+<<<<<<< HEAD
+			"Nota":10.00
+=======
 			"Nota":0
+>>>>>>> refs/remotes/origin/main
 		}
 	]
 }

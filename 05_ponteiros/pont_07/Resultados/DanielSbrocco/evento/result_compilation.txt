@@ -1,4 +1,0 @@
-evento.c: In function ‘cadastrarEvento’:
-evento.c:10:9: warning: value computed is not used [-Wunused-value]
-   10 |         *numEventos++;
-      |         ^~~~~~~~~~~~~

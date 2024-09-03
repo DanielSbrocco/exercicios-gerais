@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+____________
+batatinha___
+=======
 valgrind: Resultados/DanielSbrocco/main/prog: No such file or directory
+>>>>>>> refs/remotes/origin/main

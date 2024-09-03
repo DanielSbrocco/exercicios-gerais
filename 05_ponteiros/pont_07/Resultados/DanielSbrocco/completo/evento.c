@@ -7,7 +7,7 @@ void cadastrarEvento(Evento* eventos, int* numEventos){
         scanf("%s", eventos[*numEventos].nome);
         scanf("%d %d %d", &eventos[*numEventos].dia, &eventos[*numEventos].mes, &eventos[*numEventos].ano);
         printf("Evento cadastrado com sucesso!\n");
-        *numEventos++;
+        *numEventos += 1;
     } else {
         printf("Limite de eventos atingido!\n");
     }

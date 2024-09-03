@@ -1,0 +1,15 @@
+==471140== Memcheck, a memory error detector
+==471140== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==471140== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==471140== Command: Resultados/DanielSbrocco/eleitor/prog Resultados/DanielSbrocco/eleitor/Casos/7
+==471140== Parent PID: 471139
+==471140== 
+==471140== 
+==471140== HEAP SUMMARY:
+==471140==     in use at exit: 0 bytes in 0 blocks
+==471140==   total heap usage: 34 allocs, 34 frees, 8,996 bytes allocated
+==471140== 
+==471140== All heap blocks were freed -- no leaks are possible
+==471140== 
+==471140== For lists of detected and suppressed errors, rerun with: -s
+==471140== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

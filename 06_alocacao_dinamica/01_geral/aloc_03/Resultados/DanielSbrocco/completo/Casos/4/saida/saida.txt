@@ -1,1 +1,6 @@
+<<<<<<< HEAD
+______________________________________________________________________________________________________________________________________________________
+Todavia, o inicio da atividade geral de formacao de atitudes assume importantes posicoes no estabelecimento dos procedimentos normalmente adotados.___
+=======
 valgrind: Resultados/DanielSbrocco/completo/prog: No such file or directory
+>>>>>>> refs/remotes/origin/main

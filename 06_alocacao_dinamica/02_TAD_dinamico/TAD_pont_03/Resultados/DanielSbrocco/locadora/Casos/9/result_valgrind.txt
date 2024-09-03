@@ -1,0 +1,36 @@
+==133571== Memcheck, a memory error detector
+==133571== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==133571== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==133571== Command: Resultados/DanielSbrocco/locadora/prog Resultados/DanielSbrocco/locadora/Casos/9
+==133571== Parent PID: 133570
+==133571== 
+==133571== Invalid read of size 4
+==133571==    at 0x109747: AlugarFilmesLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==    by 0x109885: LerAluguelLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==    by 0x109C6E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==  Address 0x4a812ec is 0 bytes after a block of size 12 alloc'd
+==133571==    at 0x484DB80: realloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==133571==    by 0x10983F: LerAluguelLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==    by 0x109C6E: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571== 
+==133571== 
+==133571== HEAP SUMMARY:
+==133571==     in use at exit: 36 bytes in 1 blocks
+==133571==   total heap usage: 12 allocs, 11 frees, 8,360 bytes allocated
+==133571== 
+==133571== 36 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==133571==    at 0x4846828: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==133571==    by 0x1092BE: CriarFilme (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==    by 0x109648: CadastrarFilmeLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==    by 0x1096F2: LerCadastroLocadora (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571==    by 0x109C32: main (in /home/daniel/Documentos/CienciaDaComputacao-UFES/ProgII/exercicios-gerais/06_alocacao_dinamica/02_TAD_dinamico/TAD_pont_03/Resultados/DanielSbrocco/locadora/prog)
+==133571== 
+==133571== LEAK SUMMARY:
+==133571==    definitely lost: 36 bytes in 1 blocks
+==133571==    indirectly lost: 0 bytes in 0 blocks
+==133571==      possibly lost: 0 bytes in 0 blocks
+==133571==    still reachable: 0 bytes in 0 blocks
+==133571==         suppressed: 0 bytes in 0 blocks
+==133571== 
+==133571== For lists of detected and suppressed errors, rerun with: -s
+==133571== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

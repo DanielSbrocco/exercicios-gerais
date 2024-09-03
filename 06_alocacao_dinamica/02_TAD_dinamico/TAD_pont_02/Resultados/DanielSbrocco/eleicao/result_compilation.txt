@@ -1,0 +1,11 @@
+eleicao.c: In function ‘InicializaEleicao’:
+eleicao.c:11:27: warning: assignment to ‘tCandidato **’ from incompatible pointer type ‘tCandidato *’ [-Wincompatible-pointer-types]
+   11 |     eleicao->governadores = (tCandidato*)malloc(total*sizeof(tEleicao));
+      |                           ^
+eleicao.c:12:26: warning: assignment to ‘tCandidato **’ from incompatible pointer type ‘tCandidato *’ [-Wincompatible-pointer-types]
+   12 |     eleicao->presidentes = (tCandidato*)malloc(total*sizeof(tEleicao));
+      |                          ^
+eleicao.c: In function ‘RealizaEleicao’:
+eleicao.c:58:24: warning: assignment to ‘tEleitor **’ from incompatible pointer type ‘tEleitor *’ [-Wincompatible-pointer-types]
+   58 |     eleicao->eleitores = (tEleitor*)malloc(eleicao->totalEleitores*sizeof(tEleitor));
+      |                        ^

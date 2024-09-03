@@ -1,4 +1,9 @@
+<<<<<<< HEAD
+____________
+batatinha___
+=======
 
 ____________
 batatinha
 __
+>>>>>>> refs/remotes/origin/main

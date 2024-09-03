@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+__________________________________________________________________________________________________________________________________________________
+Do mesmo modo, a constante divulgacao das informacoes talvez venha a ressaltar a relatividade das direcoes preferenciais no sentido do progresso._
+=======
 
 __________________________________________________________________________________________________________________________________________________
 Do mesmo modo, a constante divulgacao das informacoes talvez venha a ressaltar a relatividade das direcoes preferenciais no sentido do progresso.
+>>>>>>> refs/remotes/origin/main
